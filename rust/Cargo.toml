@@ -1,0 +1,9 @@
+[package]
+
+name = "erat"
+version = "1.0.0"
+authors = [ "Alexander Pivovarov <apivovarov@gmail.com>" ]
+
+[[bin]]
+
+name = "erat"
