@@ -1,4 +1,4 @@
-# Sieve of Eratosthenes in cpp, java, python, go, node.js, rust
+# Sieve of Eratosthenes in cpp, java, python, go, node.js, rust, c
 
 # Results
 Results for Array size 100,000,000
@@ -12,6 +12,7 @@ Results for Array size 100,000,000
 | go       |      0.749 |
 | node.js  |      5.602 |
 | rust     |      0.665 |
+| c        |      0.702 |
 
 
 Results for Array size 4,000,000,000
@@ -25,6 +26,7 @@ Results for Array size 4,000,000,000
 | go       |       65.4 |
 | node.js  |          - |
 | rust     |       66.7 |
+| c        |       64.6 |
 
 
 # Build and Run
@@ -56,4 +58,11 @@ go build erat.go
 ```
 cargo build --release
 cargo run --release <N>
+```
+
+## C
+
+```
+gcc -O3 erat.c
+./a.out <N>
 ```
