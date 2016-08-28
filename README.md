@@ -13,6 +13,7 @@ Results for Array size 100,000,000
 | node.js  |      5.602 |
 | rust     |      0.665 |
 | c        |      0.702 |
+| c bit    |      0.580 |
 
 
 Results for Array size 4,000,000,000
@@ -27,6 +28,7 @@ Results for Array size 4,000,000,000
 | node.js  |          - |
 | rust     |       66.7 |
 | c        |       64.6 |
+| c bit    |       47.0 |
 
 
 # Build and Run
